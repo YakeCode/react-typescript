@@ -14,6 +14,16 @@ export default [
     rules: {
       "react/react-in-jsx-scope": "off",
       "react/react-in-tsx-scope": "off",
+      "react/prop-types": "off",
+      "@typescript-eslint/explicit-function-return-type": [
+        "error",
+        {
+          allowExpressions: true, // Permite inferencias en funciones anónimas
+          allowTypedFunctionExpressions: true,
+          allowHigherOrderFunctions: true,
+        },
+      ],
+      "@typescript-eslint/explicit-module-boundary-types": "error",
     },
   },
 ];
