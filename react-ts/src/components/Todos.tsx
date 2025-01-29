@@ -4,7 +4,7 @@ import {
   type ListOfTodos,
   type TodoId,
   type Todo as TodoType,
-} from "../models/Todo-model";
+} from "../types/Todo-model";
 import { Todo } from "./Todo";
 
 interface Props {
