@@ -9,7 +9,7 @@ export interface Todo {
 //Deconstruction of the TODO object
 export type TodoCompleted = Pick<Todo, "completed">;
 export type TodoId = Pick<Todo, "id">;
-export type Title = Pick<Todo, "title">;
+export type TodoTitle = Pick<Todo, "title">;
 //All TODOS
 export type ListOfTodos = Todo[];
 

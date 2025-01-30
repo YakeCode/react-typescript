@@ -1,5 +1,5 @@
 import { FILTERS_BUTTONS } from "../constants/todoFilters";
-import { FilterValue } from "../types/Todo-model";
+import { FilterValue } from "../types/todo.types";
 
 interface Props {
   onFilterChange: (filter: FilterValue) => void;

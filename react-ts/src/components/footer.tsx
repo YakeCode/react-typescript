@@ -1,4 +1,4 @@
-import { FilterValue } from "../types/Todo-model";
+import { FilterValue } from "../types/todo.types";
 import { Filters } from "./Filters";
 
 interface Props {
